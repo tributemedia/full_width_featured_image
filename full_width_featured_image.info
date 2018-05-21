@@ -1,0 +1,13 @@
+name = Full Width Featured Image
+description = Provides block display to include the node featured image displayed at full width, in the preface, with a slider option.
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = fe_block
+dependencies[] = views
+dependencies[] = views_slideshow
+features[ctools][] = views:views_default:3.0
+features[fe_block_settings][] = views-page_slider-block
+features[features_api][] = api:2
+features[views_view][] = page_slider
+features_exclude[dependencies][ctools] = ctools
